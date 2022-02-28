@@ -14,7 +14,6 @@ void setup() {
 	pinMode(RELAY_PIN, OUTPUT);
 	digitalWrite(RELAY_PIN, HIGH);
     Serial.println("=== booted ===");
-    mySwitch.send("000000000001010100010001");
 }
 
 void loop() {
